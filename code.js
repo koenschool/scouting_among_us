@@ -59,7 +59,7 @@ $( document ).ready(function() {
             among_target = among_codes["r" + among_num];
             woord_val = $select_woord.val();
             for (let i2 = 0; i2 < among_target.length; i2++) {
-                $admin_info.append('<tr> <td>'+among_puzzle["puzzle_type"][woord_val]["name"].charAt(i2)+'/'+i2+'</td> <td>'+among_codes["r"+among_num][i2]["code"]+'</td> <td>'+among_codes["r"+among_num][i2]["func_name"]+'</td> <td>'+among_codes["r"+among_num][i2]["info"]+'</td> <td>'+among_codes["r"+among_num][i2]["ans"]+'</td> </tr>');
+                $admin_info.append('<tr> <td>'+among_puzzle["puzzle_type"][woord_val]["name"].charAt(i2)+'/'+(i2+1)+'</td> <td>'+among_codes["r"+among_num][i2]["code"]+'</td> <td>'+among_codes["r"+among_num][i2]["func_name"]+'</td> <td>'+among_codes["r"+among_num][i2]["info"]+'</td> <td>'+among_codes["r"+among_num][i2]["ans"]+'</td> </tr>');
             }
         });
     }
