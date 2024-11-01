@@ -21,18 +21,19 @@ $( document ).ready(function() {
     
     $code_button.click(function() {
         i1=0;
+        user_input = $code_input.val().toUpperCase().replace(/\s/g, '');
         for (let key in among_codes) {
             if (among_codes.hasOwnProperty(key)) {
                 let array = among_codes[key];
                 for (let i = 0; i < array.length; i++) {
-                    if( array[i]["code"] == $code_input.val()){
+                    if( array[i]["code"].toUpperCase().replace(/\s/g, '') == user_input){
                         $begin_screen.remove();
                         $vraag_container.css("display", "flex");
                         // console.log(i);
                         // console.log(i1);
                         return vraag_func(array[i]["func_name"], array[i]["info"], array[i]["ans"], i, i1, array[i]["choose"]);
                     // } else if( $code_input.val() == "4dm1nm0d3"){
-                    } else if( $code_input.val() == "4dm1nm0d3"){
+                    } else if( user_input == "4dm1nm0d3".toUpperCase().replace(/\s/g, '')){
                         return admin_func();
                     }
                 }
