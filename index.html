@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Among us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="gen_container" id="begin_screen">
+    <h1>Voer de code in.</h1>
+    <input type="text" id="code_input">
+    <button id="code_button">Go</button>
+    </div>
+
+    <div class="vraag_container gen_container ">
+    <h1 class="vraag"></h1>
+    <div class="choose_container">
+    <button class="choose_b" id="ans_links">Links</button>
+    <button class="choose_b" id="ans_rechts">Rechts</button>
+    </div>
+    <input type="text" id="antwoord">
+    <button id="antwoord_button">antwoord</button>
+    </div>
+    <div class="gen_container">
+    <h1 id="letter"></h1>
+    <button id="reload_b">Nieuwe code invoeren</button>
+    </div>
+    <div class="gen_container admin_screen">
+        <h1>Admin mode</h1>
+        <select id="select_woord">
+        </select>
+        <table class="admin_info"></table>
+    </div>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="among_codes.js"></script>
+    <script src="code.js"></script>
+</body>
+</html>

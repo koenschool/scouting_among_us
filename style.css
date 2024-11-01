@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'vcr_osd_mono';
+    src: url('vcr_osd_mono/VCR_OSD_MONO_1.001.ttf');
+}
+
+* {
+    font-family: 'vcr_osd_mono';
+}
+
+body {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/bg2.png);
+    background-size: cover;
+    background-clip: border-box;
+}
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+    font-family: 'vcr_osd_mono';
+    color:white;
+}
+
+body .vraag_container {
+    display: none;
+}
+
+input {
+    text-align: center;
+    font-size: 30px;
+    background-color: #aab4b6;
+    border: 2px solid #424548;
+}
+
+button {
+    z-index: 15;
+    width: fit-content;
+    font-size: 30px;
+    background-color: #e8f0f0;
+    border: 2px solid #7f8789
+}
+
+.gen_container {
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#reload_b {
+    display: none;
+}
+
+.choose_container {
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+.admin_screen {
+    display: none;
+    gap: 20px;
+}
+
+select {
+    font-size: 35px;
+}
+
+p {
+    color:white;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    font-size: 20px;
+    font-family: monospace;
+    background-color: white;
+    border:2px solid black;
+    padding: 15px;
+}
+
+sub {
+    font-size: small;
+}

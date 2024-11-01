@@ -1,0 +1,24 @@
+{
+"puzzle_type":[
+  {"name":"Dictator", "ronde":"1"},
+  {"name":"Acrobaat", "ronde":"2"},
+  {"name":"Klontjes", "ronde":"3"},
+  {"name":"Mysterie", "ronde":"4"},
+  {"name":"Zwijgend", "ronde":"5"},
+  {"name":"Oogappel", "ronde":"6"},
+  {"name":"Eindspel", "ronde":"7"},
+  {"name":"platypus", "ronde":"8"},
+  {"name":"Handwerk", "ronde":"9"},
+  {"name":"Elitisme", "ronde":"10"}
+],
+"1":[
+  {"func_name":"rekensom", "code":"n92kqnmdtt", "info":"1+1", "ans":"2"},
+  {"func_name":"scouting", "code":"42kgbn81mm", "info":""},
+  {"func_name":"game", "code":"v9o0h9wjio", "info":""},
+  {"func_name":"auto", "code":"xnyojxey1f", "info":""},
+  {"func_name":"populaire", "code":"9maw8pkcn9", "info":""},
+  {"func_name":"knoop", "code":"fah2z9rblp", "info":""},
+  {"func_name":"meme", "code":"668ribynn0", "info":""},
+  {"func_name":"geschiedenis", "code":"2v8slvsvj5", "info":""}
+]
+}
