@@ -116,7 +116,6 @@ among_codes = {
   ],
   "r11":[
     {"func_name":"random", "code":"temp", "info":"dit is een vraag", "ans":"antwoord"},
-    {"func_name":"random", "code":"temp2", "info":"afbeelding?<br><img height='200px' src='img/amogus2.png'>", "ans":"links", "choose":true},
-
+    {"func_name":"random", "code":"temp2", "info":"afbeelding?<br><img height='200px' src='img/amogus2.png'>", "ans":"links", "choose":true}
   ]
   }
