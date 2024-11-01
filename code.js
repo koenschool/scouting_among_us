@@ -47,7 +47,7 @@ $( document ).ready(function() {
     function admin_func() {
         $begin_screen.remove();
         $admin_screen.css("display", "flex");
-        $select_woord;
+        $("body").css("justify-content", "unset");
                 let puzzle_array = among_puzzle["puzzle_type"];
                 for (let i = 0; i < puzzle_array.length; i++) {
                 $select_woord.append('<option value="'+i+'">'+puzzle_array[i]["name"]+' ronde:'+(i+1)+'</option>');
@@ -62,17 +62,6 @@ $( document ).ready(function() {
                 $admin_info.append('<tr> <td>'+among_puzzle["puzzle_type"][woord_val]["name"].charAt(i2)+'/'+i2+'</td> <td>'+among_codes["r"+among_num][i2]["code"]+'</td> <td>'+among_codes["r"+among_num][i2]["func_name"]+'</td> <td>'+among_codes["r"+among_num][i2]["info"]+'</td> <td>'+among_codes["r"+among_num][i2]["ans"]+'</td> </tr>');
             }
         });
-        // i1=0;
-        // for (let key in among_codes) {
-        //     if (among_codes.hasOwnProperty(key)) {
-        //         let array = among_codes[key];
-        //         for (let i = 0; i < array.length; i++) {
-                    
-        //                 return vraag_func(array[i]["func_name"], array[i]["info"], array[i]["ans"], i, i1, array[i]["choose"]);
-        //         }
-        //     }
-        // i1++;
-        // }
     }
 
     function vraag_func(vraag_type, vraag_text, vraag_ans, ronde_num, ronde_name_num, choose){
