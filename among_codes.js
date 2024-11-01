@@ -39,7 +39,7 @@ among_codes = {
     {"func_name":"scouting", "code":"s4lcplfm36", "info":"Waar staat de LWS voor?", "ans":"LandelijkeScoutingwedstrijden"},
     {"func_name":"game", "code":"1sf9howk0p", "info":"Wat is de game naam van de maker van Minecraft?", "ans":"Notch"},
     {"func_name":"auto", "code":"xg1oe9t8pd", "info":"Welke logo moet deze positie voorstellen<br><img  src='img/foto_ofzo.jpg'>", "ans":"volkswagen"},
-    {"func_name":"populaire", "code":"pkltnvviqc", "info":"Wie is dit?<br><img  src='img/arjenlubach.jpg'>", "ans":"arjenlubach.jpg"},
+    {"func_name":"populaire", "code":"pkltnvviqc", "info":"Wie is dit?<br><img  src='img/arjenlubach.jpg'>", "ans":"arjenlubach"},
     {"func_name":"knoop", "code":"ddow24fqkr", "info":"<br><img  src='img/mastworp.png'>", "ans":"mastworp"},
     {"func_name":"meme", "code":"7zuigm0f78", "info":"Van welke show is deze meme?<br><img  src='img/office_meme.png'>", "ans":"The office"},
     {"func_name":"geschiedenis", "code":"vmm6z8sbtz", "info":"Wanneer is pakjesavond?", "ans":"5 december"}
